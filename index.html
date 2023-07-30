@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="pro14-img/BCN.png">
+    <title>Mall System</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <div class="container my-5">
+
+        <div class="row">
+            <div class="left-content col-md-5 my-3 text-center">
+                <div class="input2 text-center">
+                    <input id="Name" type="text" placeholder="enter your name" class=" w-75 px-3 form-control ms-3">
+                    <div id="myAlert" class="alert alert-danger mt-2 w-75 ">غلط يسطا ارجع صحح</div>
+                    <input id="age" type="number" placeholder="enter your age"
+                        class=" w-75 my-3 px-3 form-control ms-3">
+                    <div id="myAlert2" class="alert alert-danger mb-3 w-75 ">غلط يسطا ارجع صحح</div>
+                    <input id="phone" type="number" placeholder="enter your phone" class=" w-75 px-3 form-control ms-3">
+                    <div id="myAlert3" class="alert alert-danger mt-2 w-75 ">غلط يسطا ارجع صحح</div>
+                    <button disabled id="submit" class="btn text-white mt-3">Add Content</button>
+                </div>
+            </div>
+            <div class="col-md-7 text-center my-3">
+                <div class="content-right w-100">
+
+                    <input id="search" type="search" placeholder="Search By Name" class="px-3 mt-5">
+
+                    <div class="my-4 text-start">
+                        <h2 class="ms-4"><ion-icon name="person-circle-outline"></ion-icon> Contacts List : </h2>
+                    </div>
+                    <div class="table m-auto">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th></th>
+                                    <th>Name</th>
+                                    <th>Age</th>
+                                    <th>Phone</th>
+                                    <th></th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody id="tbody">
+                                  
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

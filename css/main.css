@@ -1,0 +1,68 @@
+/* ============================================  Edit  ============================== */
+
+.bg-selver {
+    background-color: rgba(220, 228, 226, 0.568) !important;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.container .input2 {
+    width: 100%;
+    position: absolute;
+    top: 40% !important;
+}
+
+.left-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    min-height: 650px;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.205);
+    border-radius: 20px;
+    background-color: rgb(248 249 250);
+}
+
+.left-content input {
+    height: 40px;
+    width: 90% !important;
+    border-radius: 4px;
+}
+
+.content-right input {
+    width: 70%;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.content-right {
+    min-height: 650px;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.205);
+    border-radius: 20px;
+    margin-left: 10px;
+    background-color: rgb(248 249 250);
+}
+
+.content-right h2 {
+    text-decoration: underline;
+}
+
+.table {
+    width: 95%;
+}
+
+ion-icon {
+    color: blue;
+    font-size: 40px;
+}
+
+#submit {
+    background-color: blue;
+}
+
+.alert {
+    margin: auto;
+    display: none;
+}
